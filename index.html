@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin - Etch A Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Odin - Etch A Sketch</h1>
+    <div class="user-input">
+      <div class="label-input">
+        <label for="grid-size">Grid Size:</label>
+        <input
+          type="text"
+          id="grid-size"
+          placeholder="Enter grid size (e.g., 16)"
+        />
+      </div>
+      <div class="buttons-container">
+        <button id="generate-grid">Generate Grid</button>
+        <button id="clear-grid">Clear Grid</button>
+      </div>
+    </div>
+    <div id="container">
+      <!-- Grid cells will be generated here -->
+    </div>
+  </body>
+</html>
